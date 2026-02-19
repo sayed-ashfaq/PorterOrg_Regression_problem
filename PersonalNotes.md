@@ -32,3 +32,51 @@ Kurtosis measure how heavy the tails and peakness of a distribution are. Length 
 
 -> Low Kurtosis (Platykurtic)
 - Flatter shape | Fewer extreme values
+
+#### How does this effect the models
+* High Kurtosis = many outliers => results in MSE loss exploding. Outliers dominate training
+* increases Overfitting risk
+
+## QQ plots
+
+The Quantile-Quantile method(QQ) is plot technique to determine whether dataset is following a particular distribution(Usually normal) or not. Whether two samples of data came from the same population or not.
+
+#### How to read a QQ plot
+
+1. Points follow a straight line => data is approximately normal.
+
+2. S-Shape Curve => Upward curve : Positive skew, downward curve: negative skew
+
+3. Ends bend away from line => high Kurtosis/heavy tails.
+
+4. Flat middle, curved ends => Non normal distribution.
+
+#### Effects on model
+* Neural networks and tree models do not require normality.
+* It answers `Should I transform my target before modeling?`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
