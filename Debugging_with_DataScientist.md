@@ -9,6 +9,8 @@
 
 ## The Journey: 10 Modules
 
+## Day 1 Tasks - Completed
+
 **Module 1 — Thinking Like a Data Scientist (Mindset + First Look)**
 Before touching any code, we learn to *ask questions* about data. What are we predicting? Who uses this? What does "good" even mean here? Then we do our very first look at the raw data.
 
@@ -23,6 +25,8 @@ Handling nulls, outliers, duplicates, and data type issues. The unglamorous work
 
 **Module 5 — Feature Engineering**
 Extracting datetime features, creating new meaningful variables, encoding categoricals. Turning raw columns into signals a model can learn from.
+
+## Day 2 Task list
 
 **Module 6 — Preparing for Modeling**
 Train/validation/test splits, scaling, pipelines. Making sure we're doing this *honestly* with no data leakage.
